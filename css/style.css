@@ -1,0 +1,86 @@
+.form-task{
+    margin-top: 50px;
+}
+
+#lista-de-tareas{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 20px;
+    
+}
+.contenedorTarea{
+    display: flex;
+    
+}
+
+.tarea{
+    width: 100%;
+    min-height: 70px;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: #407ba6;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border-left-width: 10px;
+}
+.prioridad-baja {
+    border-left-color: #7FFFD4; 
+}
+.prioridad-media {
+    border-left-color: #FFFF00; 
+}
+.prioridad-alta {
+    border-left-color: #FF4500; 
+}
+
+
+.tarea.completada{
+    text-decoration: line-through;
+    background-color:black;
+    border: none;
+}
+
+.tarea p {
+    max-width: 350px;
+}
+
+
+
+i{
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.icono-completar{
+    color: rgb(0, 255, 0);
+}
+.icono-eliminar{
+    color: white;
+}
+.icono-completar:hover,
+.icono-eliminar:hover{
+    background-color: rgba(255, 255, 255, 0.523);
+}
+
+
+
+.btnBorrarTodo{
+    margin: 20px;
+}
+
+.titulo{
+    margin: 10px;
+    text-align: center;
+    
+}
+.descripcion{
+    margin: 10px;
+    text-align: center;
+}
